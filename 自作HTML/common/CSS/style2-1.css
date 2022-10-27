@@ -1,0 +1,62 @@
+
+
+
+body {
+    background-image: url("../../images/backgroundgreeen.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+}
+
+
+/*ヘッダー*/
+　 .header {
+}
+
+
+/*テキストp131*/
+
+.pagebody {
+    display: flex;
+    justify-content: center;
+}
+
+.pagebodysub {
+    width: 220px;
+    background-color: beige;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+.pagebodyMain {
+    width: 780px;
+    text-align: left;
+    padding-left: 60px;
+    background-color: white;
+}
+
+#image1 {
+}
+
+
+
+table {
+    width: 500px;
+    border-color: #e6e6fa;
+    background-color: #f5f5f5;
+}
+
+
+
+.footer {
+    bottom: 0;
+    text-align: right;
+    background-color: white;
+}
+

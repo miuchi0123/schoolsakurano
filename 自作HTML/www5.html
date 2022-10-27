@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf=8">
+    <title>杉谷区桜野小学校</title>
+    <link rel="stylesheet" href="common/css/style2.css">
+    <script src="quiz/quiz.js"></script>
+</head>
+<body>
+    <div class="body">
+        <!-- header -->
+        <div class="header">
+            <header>
+                <img src="images/小学校のトップ画面vol2.png" alt="小学校の画像" width="1080" height="180">
+            </header>
+        </div>
+        <div class="pagebody">
+
+            <div class="pagebodysub">
+                <a href="www.html"><img src="images/トップ1.png" alt="ボタン1" width="200" height="75"></a>
+                <a href="www2.html"><img src="images/沿革.png" alt="ボタン2" width="200" height="75"></a>
+                <a href="www3.html"><img src="images/校長挨拶.png" alt="ボタン3" width="200" height="75"></a>
+                <a href="www4.html"><img src="images/校歌.png" alt="ボタン3" width="200" height="75"></a>
+                <a href="www5.html"><img src="images/クイズ1.png" alt="ボタン3" width="200" height="75"></a>
+
+
+
+
+            </div>
+            <div class="pagebodyMain">
+                <div class="quiz-container">
+                    <h2>第1問</h2>
+                    <div>
+                        <p>桜野小学校の初代校長の名前は？</p>
+                    </div>
+                    <form id="quiz-1">
+                        <input name="answer" type="radio" value="a">一番合戦 貞政</input>
+                        <input name="answer" type="radio" value="b">督 雅大佳(とく　まさたか）</input>
+                        <input name="answer" type="radio" value="c">鎌田 真郎</input>
+                    </form>
+                    <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>
+                </div>
+                <div class="quiz-container">
+                    <h2>第2問</h2>
+                    <div>
+                        <p>郷土資料「かがやく桜野」が出版されたのは？</p>
+                    </div>
+                    <form id="quiz-2">
+                        <input name="answer" type="radio" value="a">昭和42年</input>
+                        <input name="answer" type="radio" value="b">昭和47年</input>
+                        <input name="answer" type="radio" value="c">平成12年</input>
+                    </form>
+                    <button class="btn" type="button" onclick="answerQuiz2();">回答する</button>
+                </div>
+                <div class="quiz-container">
+                    <h2>第3問</h2>
+                    <div>
+                        <p>校歌の歌い出しは？</p>
+                    </div>
+                    <form id="quiz-3">
+                        <input name="answer" type="radio" value="a">夕焼け染まる</input>
+                        <input name="answer" type="radio" value="b">自律の学び</input>
+                        <input name="answer" type="radio" value="c">青空高く</input>
+                    </form>
+                    <button class="btn" type="button" onclick="answerQuiz3();">回答する</button>
+                </div>
+                <div class="quiz-container">
+                    <h2>第4問</h2>
+                    <div>
+                        <p>子供が〇〇育つ小学校に！</p>
+                    </div>
+                    <form id="quiz-4">
+                        <input name="answer" type="radio" value="a">すくすく</input>
+                        <input name="answer" type="radio" value="b">わくわく</input>
+                        <input name="answer" type="radio" value="c">のびのび</input>
+                    </form>
+                    <button class="btn" type="button" onclick="answerQuiz4();">回答する</button>
+                </div>
+                <div id="score-container">
+                    <p id="score-message"></p>
+                </div>
+                <button class="btn-score" type="button" onclick="showScore();">合計得点を見る</button>
+            </div>　
+                
+
+                </div>
+                <div class="footer">
+                    <footer>
+                        <p>東京都杉谷区桜野1-23 〒000-0000 0x0-xxxx-00x0</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
